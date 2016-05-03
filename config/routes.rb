@@ -4,8 +4,6 @@ Rails.application.routes.draw do
   resources :messages , except:[:index,:new]
   
 
-
-
 end
 
 
